@@ -643,3 +643,7 @@ These commands will generate a nice `HTML` report of your code coverage in the f
 
 # Summary
 You now have a very basic understanding of how to get started with CSharp development using free and open source tools.  Documentation is your friend.  Use it.
+
+# Appendix
+## Plugins Useful for VSCode when Writing C# Code
+See [this](https://code.visualstudio.com/docs/languages/csharp) page.
