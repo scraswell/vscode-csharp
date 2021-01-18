@@ -647,3 +647,6 @@ You now have a very basic understanding of how to get started with CSharp develo
 # Appendix
 ## Plugins Useful for VSCode when Writing C# Code
 See [this](https://code.visualstudio.com/docs/languages/csharp) page.
+* C# for Visual Studio Code
+* C# XML Documentation Comments (helpful for automatically adding comments to public members)
+* File Header Comment (helpful for inserting file header comments in new files)
