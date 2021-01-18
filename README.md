@@ -576,7 +576,7 @@ Total tests: 1
 ## Code Coverage
 Code coverage reports tell us how much of our code is covered by unit-tests.  It is a great metric understand how likely it is that there are bugs in your code.  More coverage means it's less likely to have bugs.  Coverage doesn't mean you can't have bugs.  Obviously if there are test cases you haven't considered, then you can still have problems.
 
-Coverlet is a well-known tool for generating code coverage reports.  We will add Coverlet to our Unit Test project.
+[Coverlet](https://github.com/coverlet-coverage/coverlet) is a well-known tool for generating code coverage reports.  We will add Coverlet to our Unit Test project.
 
 From the Unit Test project folder:
 ```sh
