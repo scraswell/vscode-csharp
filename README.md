@@ -444,7 +444,7 @@ Typically in C# projects, unit test code is written in a unit test project.  Thi
 
 What is a unit test?  It is a simple test that works ONLY with YOUR code.  A unit test does NOT test other libraries or third party code.  You should always strive to plan out your design such that any code YOU write can be easily tested without the requirement of external services.  One versatile library for this is `Moq`.  `Moq` would allow you to use the interface from a third party service to mock a return.  You can use this mocked object to simulate the result of a service call and ensure that your logic for handling said response works as intended.
 
-`XUnit` is the most commonly used unit testing library for .NET Core projects.  We will use this.
+[`XUnit`](https://xunit.net/) is the most commonly used unit testing library for .NET Core projects.  We will use this.
 
 ### Adding a unit test project
 From the Solution Directory at your shell, create the unit test project:
@@ -502,7 +502,7 @@ namespace MyClassLibrary.UnitTests
 
 Things to note here:
 * `[Fact]` is an attribute that tells the test runner that this method should be executed when testing.
-* `Assert` is an object that actually verifies values for you.  Typically the signature for a method is `(expectedValue, actualValue)`.  Refer to the documentation on `Xunit.Assert` for more info.
+* `Assert` is an object that actually verifies values for you.  Typically the signature for a method is `(expectedValue, actualValue)`.  Refer to the documentation on [`Xunit.Assert`](https://xunit.net/) for more info.
 
 ### Running unit tests
 Now we should be able to build and run the test (from the solution directory):
