@@ -227,7 +227,7 @@ In addition, we need to tell the project where to find the `stylecop.json` file.
 
 Notice that we have set this AdditionalFiles element Include attribute to be the relative path to `stylecop.json`.  This tells the compiler where to find the file and it is included in the build context.
 
-Now we rebuild (`dotnet build`) and the [`SA1633`](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1633.md) error no longer appears.
+Now we rebuild (`dotnet build`) and the [`SA1633`](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1633.md) or [`SA1636`](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1636.md) error no longer appears.
 ```
 Microsoft (R) Build Engine version 16.7.0+7fb82e5b2 for .NET
 Copyright (C) Microsoft Corporation. All rights reserved.
