@@ -211,6 +211,7 @@ The content of this file, located at `{slndir}/stylecop.json` will, for now, be 
 ```
 
 In addition, we need to tell the project where to find the `stylecop.json` file.  In the `.csproj` file we will add a new section:
+```xml
 <Project Sdk="Microsoft.NET.Sdk">
 
   ...
@@ -222,6 +223,7 @@ In addition, we need to tell the project where to find the `stylecop.json` file.
   ...
 
 </Project>
+```
 
 Notice that we have set this AdditionalFiles element Include attribute to be the relative path to `stylecop.json`.  This tells the compiler where to find the file and it is included in the build context.
 
