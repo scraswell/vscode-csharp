@@ -197,7 +197,7 @@ CSC : error SA0001: XML comment analysis is disabled due to project configuratio
 
 ```
 
-Error [`SA1633`](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1633.md) now tells us that the copyright text does not match.  This is because the company name is not properly configured.  StyleCop is configurable via a file called `stylecop.json`.  All configuration is [documented](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/Configuration.md).  I will add this file to the solution directory and to the project.
+Error [`SA1636`](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1636.md) now tells us that the copyright text does not match.  This is because the company name is not properly configured.  StyleCop is configurable via a file called `stylecop.json`.  All configuration is [documented](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/Configuration.md).  I will add this file to the solution directory and to the project.
 
 The content of this file, located at `{slndir}/stylecop.json` will, for now, be set to:
 ```json
