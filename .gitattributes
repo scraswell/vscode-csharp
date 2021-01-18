@@ -1,0 +1,16 @@
+* text=auto
+
+# Explicitly declare text files we want to always be normalized and converted 
+# to native line endings on checkout.
+*.c text
+*.cpp text
+*.cs text
+*.h text
+*.sln text
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.dll binary
+*.gif binary
+*.ico binary
