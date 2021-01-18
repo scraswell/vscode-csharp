@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
   <Modules>
-    <Module hash="19B33A0C-0DF8-495F-8A37-EEEC627A0052">
+    <Module hash="288FBEA3-5D48-434C-893F-8C4FA1C64CA1">
       <ModulePath>MyClassLibrary.dll</ModulePath>
-      <ModuleTime>2021-01-18T07:23:50</ModuleTime>
+      <ModuleTime>2021-01-18T08:01:07</ModuleTime>
       <ModuleName>MyClassLibrary</ModuleName>
       <Files>
         <File uid="1" fullPath="/Users/00005309/development/code/csharp/MyClassLibrary/Calculator.cs" />

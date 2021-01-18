@@ -580,8 +580,8 @@ Code coverage reports tell us how much of our code is covered by unit-tests.  It
 
 From the Unit Test project folder:
 ```sh
-dotnet add package coverlet.msbuild -v 2.8.0
-dotnet add package coverlet.collector -v 1.2.0
+dotnet add package coverlet.msbuild
+dotnet add package coverlet.collector
 ```
 
 Once it is added, we will configure out Unit Test project to generate the coverage results by adding a property group to the `.csproj` configuration file:
